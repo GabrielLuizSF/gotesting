@@ -12,7 +12,7 @@ func TestHello(test *testing.T){
 	}
   }
 
-  test.Run("Says Hello To a Person"func(test *testing.T){
+  test.Run("Says Hello To a Person",func(test *testing.T){
 	result := Hello("Yourname")
 	expected := "Hello Yourname"
 	checkExpectedResult(test,result,expected)
