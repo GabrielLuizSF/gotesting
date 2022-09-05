@@ -3,7 +3,7 @@ package main
 import(
 	"fmt"
 	"math/sum"
-	"math/div"
+	"math/sub"
 )
 
 
@@ -28,6 +28,10 @@ func main(){
 		    GetUserinput()
 		    addition := sum.Addition(value1,value2); 
 		    fmt.Println("\n[Result]:",addition)
+	 case "sub":
+	        GetUserinput()
+		    subtraction := sub.Subtraction(value1,value2)
+	     	fmt.Println("\n[Result]:",subtraction)
      default:
 	   fmt.Println("[ERROR]:Invalid Value")
 	break;
