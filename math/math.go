@@ -22,7 +22,7 @@ func GetUserinput(){
 func main(){
  
    fmt.Println("Calculator:\n\n")
-   fmt.Println("Options:{\n\nSum:'sum'\n\n}")
+   fmt.Println("Options:{\n\nSum:'sum'\n\nSubtraction:'sub'\n\nDivision:'div'\n\nMultiplication:'mult'\n\n}")
    fmt.Scanln(&userinput)
 
    switch userinput{
