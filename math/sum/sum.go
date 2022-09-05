@@ -1,8 +1,6 @@
 package sum
 
 
-
-func Addition(value1,value2 int)int{
-  return  value1 + value2;
-
+func Addition(value1,value2 float64)float64{
+	return value1 + value2
 }
