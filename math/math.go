@@ -4,6 +4,8 @@ import(
 	"fmt"
 	"math/sum"
 	"math/sub"
+	"math/mult"
+	"math/div"
 )
 
 
@@ -32,6 +34,14 @@ func main(){
 	        GetUserinput()
 		    subtraction := sub.Subtraction(value1,value2)
 	     	fmt.Println("\n[Result]:",subtraction)
+	 case "mult":
+	        GetUserinput()
+		    multiplication := mult.Multiplication(value1,value2)
+	     	fmt.Println("\n[Result]:",multiplication)
+	 case "div":
+	        GetUserinput()
+		    division := div.Division(value1,value2)
+	     	fmt.Println("\n[Result]:",division)
      default:
 	   fmt.Println("[ERROR]:Invalid Value")
 	break;
